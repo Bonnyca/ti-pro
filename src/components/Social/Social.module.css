@@ -1,8 +1,11 @@
 .social {
     grid-area: social;
+    padding: 0 100px;
     min-height: 30px;
     min-width: 100%;
-    background: rgba(0, 0, 0, 0.2);   
+    background: rgba(0, 0, 0, 0.2);  
+    display: flex; 
+    justify-content: space-between; 
 }
 
 
@@ -12,7 +15,6 @@
     padding: 8px 0 8px 0;
     max-width: 300px;
     min-width: 30%;
-    background-color: #009999;
 }
 
 .icon {
@@ -20,9 +22,28 @@
 }
 
 .icon:hover {
-       color: #009999;
+       color: darkcyan;
 }
 
 .contacts{
-    background-color: rebeccapurple;
+    margin: 0 20px 0 50px;
+    display: inline-flex;
+    position: relative;
+    min-width: 30%;
+}
+
+.contacts:hover{
+    cursor: pointer;
+}
+
+.email{
+    margin: 0 10px;
+    line-height: 30px;
+    font-size: .8rem;
+}
+
+.phone{
+    margin: 0 10px;
+    line-height: 30px;
+    font-size: .8rem;
 }

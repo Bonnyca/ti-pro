@@ -9,6 +9,10 @@ import {
   faLinkedinIn,
   faPinterestP
 } from "@fortawesome/free-brands-svg-icons";
+import { 
+  faEnvelope,
+  faPhone
+ } from "@fortawesome/free-solid-svg-icons";
 
 const Social = () => {
   return (
@@ -42,7 +46,9 @@ const Social = () => {
         </a>
       </div>
       <div className={s.contacts}> 
-        contacts
+      <div className={s.email}> <FontAwesomeIcon icon={faEnvelope} style={{ color: 'darkcyan' }}/> tiger@google.com</div>
+      <div className={s.phone}> <FontAwesomeIcon icon={faPhone} spin style={{ color: 'darkcyan' }}/> 1650-537-5079</div>
+        
       </div>
     </div>
   );
