@@ -3,7 +3,7 @@
     padding: 0 100px;
     min-height: 30px;
     min-width: 100%;
-    background: rgba(0, 0, 0, 0.8);  
+    background: rgba(44,42,39, 0.8);  
     display: flex; 
     justify-content: space-between; 
 }
@@ -18,7 +18,7 @@
 }
 
 .icon {
-    color: #F6F9FC;
+    color: #4396a3;
 }
 
 .icon:hover {
@@ -30,10 +30,12 @@
     display: inline-flex;
     position: relative;
     min-width: 30%;
+    color: #c6d9ec;
 }
 
 .contacts:hover{
     cursor: pointer;
+    color: #F6F9FC;
 }
 
 .email{

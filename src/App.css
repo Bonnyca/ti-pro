@@ -1,10 +1,16 @@
 
 .app-wrapper{
   margin: 0 auto;
+  box-sizing: border-box;
   display: grid;
   grid-template-areas: 
   "social social"
   "h h"
   "side cont";
   grid-template-columns: 1fr 6fr;
+  background-image: url(/public/img/bg.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+
 }
