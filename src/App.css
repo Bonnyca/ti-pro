@@ -1,23 +1,11 @@
 
-
 .app-wrapper{
+  max-width: 1200px;
+  margin: 0 auto;
   display: grid;
   grid-template-areas: 
   "social social"
   "h h"
-  "side main";
+  "side cont";
   grid-template-columns: 1fr 6fr;
-}
-
-.sidebar {
-  grid-area: side;
-}
-
-.main{
-  grid-area: main;
-}
-
-.social{
-  grid-area: social;
-
 }

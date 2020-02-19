@@ -1,0 +1,9 @@
+.content{
+    background-color: black;
+    grid-area: cont;
+    grid-area: cont;
+  font-size: 40px;
+  margin: 90px auto;
+  background-color: darkolivegreen;
+  min-height: 50px;
+}

@@ -6,9 +6,10 @@ const Header = () => {
     return (
     <header className={s.header}>
         <img src='img/logo.png' alt="tiger paw logo"/>
-        <span>Tiger</span>
-        <span className="motto">World's first React.js website dedicated to the Tiger's greatness!
-       </span> 
+        <span>about Tiger</span>
+        <span>Tiger loves</span>
+        <span>Tiger hates</span>
+        
     </header>
     )
 }
