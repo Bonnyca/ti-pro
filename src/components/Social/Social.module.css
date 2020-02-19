@@ -3,7 +3,7 @@
     padding: 0 100px;
     min-height: 30px;
     min-width: 100%;
-    background: rgba(0, 0, 0, 0.2);  
+    background: rgba(0, 0, 0, 0.8);  
     display: flex; 
     justify-content: space-between; 
 }
@@ -41,9 +41,15 @@
     line-height: 30px;
     font-size: .8rem;
 }
+.email:hover{
+    font-style: italic;
+}
 
 .phone{
     margin: 0 10px;
     line-height: 30px;
     font-size: .8rem;
+}
+.phone:hover{
+    font-style: italic;
 }
