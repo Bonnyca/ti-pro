@@ -5,6 +5,7 @@ import {
     faSearch
    } from "@fortawesome/free-solid-svg-icons";
 
+
 const Header = () => {
   return (
     <header className={s.header}>
@@ -15,11 +16,12 @@ const Header = () => {
         </div>
         <div className={s.menu}>
           <span>About</span>
-          <span>Tiger loves</span>
-          <span>Tiger hates</span>
+          <span>Tiger Loves</span>
+          <span>Tiger Hates</span>
         </div>
         <div className="request">
-        <FontAwesomeIcon icon={faSearch} size="sm" style={{ color: '#C0C0C0' }} />
+        <FontAwesomeIcon icon={faSearch} size="sm" style={{ color: '#C0C0C0', cursor: 'pointer', marginRight: '7px'}} />
+        <button className={s.quote}> Get a Cuddle Quote</button>
         </div>
       </div>
     </header>

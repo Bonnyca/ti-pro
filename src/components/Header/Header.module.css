@@ -1,17 +1,18 @@
 
 header {
-    height: 45px;
+    height: 55px;
     grid-area: h;
     font-size: 18px;
-    line-height: 45px;
+    line-height: 35px;
     padding: 0 100px;
-    margin: 10px 0 20px 0;
+    margin: 15px 0 20px 0;
     
 }
 
 .container{
     width: 100%;
-    border-bottom: 1px solid rgb(70, 70, 67);
+    height: 55px;
+    border-bottom: 1px solid rgb(109, 109, 106);
     display: flex;
     justify-content: space-between; 
 }
@@ -43,7 +44,35 @@ header {
     display: inline-flex;
     justify-self: right;
 }
+
 .menu span:hover{
     cursor: pointer;
     color: rgb(255, 174, 0);
+    
 }
+ .quote{
+    height: 34px;
+    line-height: 34px;
+    border-radius: 4px;
+    border: none;
+    padding: 0 15px;
+    margin: 0 10px;
+    background-color: #e69d00;
+    font-weight: normal;
+    color: aliceblue;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    -webkit-transition: background-color 2s ease-out;
+    -moz-transition: background-color 2s ease-out;
+    -o-transition: background-color 2s ease-out;
+    transition: background-color 2s ease-out;
+    cursor: pointer;
+    box-shadow: 0 8px 16px 0 rgba(37, 37, 37, 0.2), 0 6px 20px 0 rgba(41, 41, 41, 0.19);
+}
+.quote:hover{
+    background:linear-gradient(#ffae00, #cc8b00);;
+    cursor: pointer;
+}
+
+

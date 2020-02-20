@@ -1,9 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis|Inconsolata|Noto+Sans|Odibee+Sans&display=swap');
+
+
 .content{
-    background-color: black;
-    grid-area: cont;
-    grid-area: cont;
+  grid-area: cont;
   font-size: 40px;
-  margin: 90px auto;
-  background-color: darkolivegreen;
-  min-height: 50px;
+  margin: 120px 250px 10px 100px;
+  min-height: 300px;
+  text-transform: uppercase;
+  
+}
+
+.firstp{
+  font-size: 42px;
+  font-weight: normal;
+  font-family: 'Odibee Sans', cursive;
+  font-family: 'Inconsolata', monospace;
+}
+
+.secondp{
+  font-size: 19px;
+  font-family: 'Dosis', sans-serif;
+}
+
+.thirdp {
+  font-size: 58px;
+  font-weight: bold;
+  color:  #ffb61a;
+  font-family: 'Noto Sans', sans-serif;
+  
 }

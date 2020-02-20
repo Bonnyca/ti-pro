@@ -7,7 +7,9 @@ import s from './Content.module.css';
 const Content = () => {
     return (
     <div className={s.content}>
-      World's first React.js website dedicated to the Tiger's greatness!
+     <p className={s.firstp}>World's first React website</p>  
+      <p className={s.secondp}>dedicated to the  </p>
+      <p className={s.thirdp}>Tiger's greatness!</p>
      </div>
 
     )
