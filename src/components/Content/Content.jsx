@@ -11,8 +11,7 @@ const Content = () => {
       <p className={s.secondp}>dedicated to the  </p>
       <p className={s.thirdp}>Tiger's greatness!</p>
      </div>
-
     )
-}
+};
 
 export default Content;
