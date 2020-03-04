@@ -1,3 +1,72 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400&display=swap");
 .loves {
-  background-color: purple;
+  font-family: "Lato";
+  padding: 0 100px;
+  margin: 0 auto;
+}
+.loves h2 {
+  font-weight: 300;
+  font-size: 2rem;
+}
+.loves h2 span {
+  color: #ffae00;
+  font-weight: bolder;
+}
+.loves .lovesCards {
+  color: aliceblue;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(18, minmax(10px, 1fr));
+  grid-auto-rows: minmax(10px, 30px);
+  grid-auto-flow: dense;
+}
+.loves .lovesCards :nth-child(1) {
+  grid-column: span 6;
+  grid-row: span 8;
+}
+.loves .lovesCards :nth-child(2) {
+  grid-column: span 6;
+  grid-row: span 18;
+}
+.loves .lovesCards :nth-child(3) {
+  grid-column: span 6;
+  grid-row: span 18;
+}
+.loves .lovesCards :nth-child(4) {
+  grid-column: span 6;
+  grid-row: span 14;
+}
+.loves .lovesCards :nth-child(5) {
+  grid-column: span 6;
+  grid-row: span 9;
+}
+.loves .lovesCards :nth-child(6) {
+  grid-column: span 6;
+  grid-row: span 9;
+}
+.loves .lovesCards :nth-child(7) {
+  grid-column: span 6;
+  grid-row: span 9;
+}
+.loves .lovesCards .card {
+  max-width: 450px;
+  display: block;
+  position: relative;
+  align-items: start;
+}
+.loves .lovesCards .card img {
+  width: 100%;
+  object-fit: contain;
+  align-items: start;
+}
+.loves .lovesCards .card p {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 50px;
+  line-height: 50px;
+  font-size: 1.5rem;
+  background-color: rgba(4, 4, 32, 0.3);
+  padding: 0 15px;
 }

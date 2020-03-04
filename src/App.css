@@ -4,11 +4,11 @@
   box-sizing: border-box;
   display: grid;
   grid-template-areas: 
-  "social social"
-  "h h"
-  "cont cont"
-  "f f";
-  grid-template-columns: 1fr 6fr;
+  "social"
+  "h"
+  "cont"
+  "f";
+  grid-template-columns: 1fr;
   grid-template-rows: 34px 95px auto 50px;
   width: 100vw;
   height: 100vh;
@@ -16,33 +16,3 @@
   
 }
 
-.app-wrapper::before{
-  content: '';
-  display: block;
-  position: absolute;
-  left:0;
-  right: 0;
-  bottom: 0;
-  top: 0;
-  z-index: -2;
-  transform-origin: center;
-  background-image: url(./media/bg.jpg);
-  background-repeat: no-repeat;
-  background-size: cover; 
-  min-height: auto;
-  width: 100vw;
-  /* transform: translateZ(-1px) scale(2);
-  transition: 1s; */
-}
-
-.app-wrapper::after{
-  content: '';
-  display: block;
-  z-index: -1;
-  position: absolute;
-  background-color: black;
-  opacity: 0.55;
-  background-size: cover; 
-  min-height: 100vh;
-  width: 100vw;
-}

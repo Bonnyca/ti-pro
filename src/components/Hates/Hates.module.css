@@ -1,0 +1,10 @@
+@import url("https://fonts.googleapis.com/css?family=Dosis|Inconsolata|Noto+Sans|Odibee+Sans&display=swap");
+.hates {
+  width: 100vw;
+  padding: 50px;
+  background-color: salmon;
+  padding: 50px 100px;
+}
+.hates h2 {
+  color: red;
+}

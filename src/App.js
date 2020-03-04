@@ -8,11 +8,11 @@ import { faCheckSquare, faCoffee } from '@fortawesome/free-solid-svg-icons'
 import Header from './components/Header/Header';
 import Social from './components/Social/Social';
 import Content from './components/Content/Content';
-import Sidebar from './components/Sidebar/Sidebar';
 import Footer from './components/Footer/Footer';
 import Networking from './components/Networking/Networking'
 import { Route, BrowserRouter } from 'react-router-dom'
 import Loves from './components/Loves/Loves';
+import Hates from './components/Hates/Hates';
 
 
 
@@ -26,7 +26,7 @@ function App() {
         <Header />
         <div className="content-wrapper">
           <Route path='/about' component={Content} />
-          <Route path='/hates'component={Sidebar} />
+          <Route path='/hates'component={Hates} />
           <Route path='/loves'component={Loves} />
           <Route path='/social'component={Networking} />
         </div>

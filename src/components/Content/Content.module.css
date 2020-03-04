@@ -6,8 +6,40 @@
   font-size: 40px;
   margin: 120px 250px 10px 100px;
   min-height: 300px;
-  text-transform: uppercase;
-  
+  text-transform: uppercase; 
+  position: relative;
+}
+
+.content::before{
+  content: '';
+  display: block;
+  position: absolute;
+  left:-100px;
+  right: 0;
+  bottom: calc(-100vh + 550px);
+  top: -250px;
+  z-index: -2;
+  transform-origin: center;
+  background-image: url(../../media/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; 
+  height: 100vh;
+  width: 100vw;
+}
+.content::after{
+  content: '';
+  display: block;
+  z-index: -1;
+  position: absolute;
+  left:-100px;
+  right: 0;
+  bottom: calc(-100vh + 550px);
+  top: -250px;
+  background-color: black;
+  opacity: 0.55;
+  background-size: cover; 
+  min-height: 100vh;
+  width: 100vw;
 }
 
 .firstp{

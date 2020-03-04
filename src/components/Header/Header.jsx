@@ -13,7 +13,6 @@ const Header = () => {
       {/* <NavLink to="/about" activeClassName={s.logo}><img src="img/logo.png" alt="tiger paw logo" />
           Super<span>Ti</span></NavLink> */}
 
-
         <div className={s.logo}>
           <img src="img/logo.png" alt="tiger paw logo" />
           Super<span>Ti</span>
