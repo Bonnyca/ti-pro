@@ -13,12 +13,13 @@ import Networking from './components/Networking/Networking'
 import { Route, BrowserRouter } from 'react-router-dom'
 import Loves from './components/Loves/Loves';
 import Hates from './components/Hates/Hates';
+import state from './redux/state';
 
 
 
 library.add(fab, faCheckSquare, faTwitter, faCoffee)
 
-function App() {
+const App = (props) => {
   return (
     <BrowserRouter>
       <div className="app-wrapper">
@@ -27,11 +28,14 @@ function App() {
         <div className="content-wrapper">
           <Route path='/about' component={Content} />
           <Route path='/hates'component={Hates} />
-          <Route path='/loves'component={Loves} />
+
+          <Route path='/loves'
+          render={ () => <Loves
+            lovesData={props.state.lovesData} />}/>
+          
           <Route path='/social'component={Networking} />
         </div>
         <Footer />
-        {/* <Sidebar /> */}
 
       </div>
     </BrowserRouter>
